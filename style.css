@@ -1,0 +1,171 @@
+body {
+    background-image: url(images/floral.png);
+    margin: 0px;
+    background-color:lightseagreen;
+    padding: 0%;
+}
+marquee{
+
+    background-color: red;
+    color: white;
+    height: 2em;
+    font-size: 2em;
+    font-family: serif;
+    
+}
+header {
+    background-color: gray;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    font-size: large;
+    font-size: xx-large;
+    
+}
+#tech {
+    background-image: url(images/floral.png);
+    background-color: #f18d97;
+    padding: 2em 2em;
+    justify-content:center;
+    text-align: -webkit-center;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    
+}
+#one {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: brown;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-size: large;
+    font-family: serif;
+    padding: 1em 1em;
+}
+#join-btn {
+    padding: 15px 30px;
+    font-family: -webkit-pictograph;
+    font-size: -webkit-xxx-large;
+    color: wheat;
+    border: none;
+    background-image: beige;
+    background-color: brown;
+    width: 4em;
+  height: 4em;
+  background-color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+
+  
+}
+#Services {
+    background-image: url(images/floral.png);
+    background-color: #dfdfdf;
+    padding: 10px;
+    justify-content:center;
+    text-align: -webkit-center;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+#Services div{
+
+display: inline-block;
+font-family: serif;
+font-size: small;
+height: auto;
+width: 30%;
+
+}
+#Services  i{
+      font-size: 7em;
+}
+#Services i:hover{
+    color:palevioletred;
+    
+}
+figcaption{
+
+ font-size: 2em;
+
+}
+
+#h2 {
+    
+    font-size: 2em ;
+    font-family: serif;
+    padding: 1em;
+}
+#Portfolio {
+    background-image: linear-gradient(#ff007266, #7a00ff);
+    text-align: -webkit-center;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    padding: 1em 1em;
+}
+
+#new {
+    background-color: lightseagreen;
+    background-image: url(images/floral.png);
+    text-align: -webkit-center;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+#new i{
+    border: solid black 5px;
+    padding: 5px 5px;
+    border-radius: 10em;
+
+}
+
+#new i:hover{
+    color:yellow;
+}
+#made {
+    background-color: black;
+    color:white;
+    font-family: serif;
+    font-size: 2em;
+    text-align: -webkit-center;
+}
+#made i:hover{
+    color:red;
+}
+#last {font-family: serif;font-size: 10px;position: relative;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+#last figure {
+position: relative;
+}
+#last figcaption{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    height: 150px;
+    width: 200px;
+   
+}
+#last figure:hover figcaption {
+display: block;
+
+}
+.p-row{
+display: flex;
+}    
+
